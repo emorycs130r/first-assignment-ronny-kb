@@ -15,20 +15,20 @@ DO NOT EDIT THE FUNCTION NAMES.
 '''
 
 def append_two_strings(string_1, string_2):
-
-    pass
+    result = string_1 + string_2
+    return result
 
 
 def append_character(string_1, char_1):
-
-    pass
+    result_2 = string_1 + char_1
+    return result_2
 
 
 def append_num_to_string(string_1, num_1):
-
-    pass
-
+    result_3 = string_1 + str(num_1)
+    return result_3
 
 if __name__ == "__main__":
-    
-    pass
+    print(append_two_strings("test", "one"))
+    print(append_character("test", 'k'))
+    print(append_num_to_string("test", 5.2))
